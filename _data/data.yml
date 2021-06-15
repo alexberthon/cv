@@ -50,7 +50,8 @@ career-profile:
     title: Career Profile
     summary: |
       Product Manager with a versatile skillset (engineering & business background), based in Paris, France.
-      I thrive in challenging environments, where there is a lot of different stuff to do. I can work remotely or at the office, having experienced both.
+      I thrive in challenging environments, where there is plenty of different stuff to do with different people.
+      I can work remotely or at the office, having experienced both.
       Super curious about the R&D and thought processes, I greatly enjoy building products/features.
 education:
     - degree: MSc in Management
@@ -86,7 +87,7 @@ experiences:
         - write specifications and design mockups
         - project management, development follow-up
         - QA (for the mobile apps: rapid remote testing via Xcode & Android Studio)
-        - development and maintenance of the product landing pages: coorganiz.com, calizy.com
+        - development and maintenance of the product landing pages: <a href="https://coorganiz.com" target="_blank" rel="nofollow">coorganiz.com</a>, <a href="https://calizy.com" target="_blank" rel="nofollow">calizy.com</a>
 
         I'm working with the team (which is scattered across Europe) on 2 different projects:
         - Coorganiz (B2C app, iOS/Android/web), an app that helps the organization of small communities
