@@ -52,30 +52,16 @@ career-profile:
       Product Manager with a versatile skillset (engineering & business background), based in Paris, France.
       I thrive in challenging environments, where there is plenty of different stuff to do with different people.
       I can work remotely or at the office, having experienced both.
-      Super curious about the R&D and thought processes, I greatly enjoy building products/features.
+      Always curious about the R&D and thought processes, I thoroughly enjoy building products/features.
 education:
     - degree: MSc in Management
       university: ESSEC Business School
       time: 2015 - 2018
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      details:
     - degree: MSc in Engineering
       university: Arts et Métiers Engineering School
       time: 2012 - 2015
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      details:
 experiences:
     - role: Product Manager
       time: May 2018 - Present
@@ -88,7 +74,7 @@ experiences:
         
         Activities:
         - listen to users/clients wants/needs
-        - rephrase those needs, so that the end feature benefits all clients and not a specific one
+        - reframe those needs, so that the end feature benefits all clients and not a specific one
         - write specifications and design mockups
         - project management, development follow-up
         - QA (for the mobile apps: rapid remote testing via Xcode & Android Studio)
