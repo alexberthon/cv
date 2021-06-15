@@ -79,8 +79,13 @@ education:
 experiences:
     - role: Product Manager
       time: May 2018 - Present
-      company: Coorganiz/Calizy (B2C app/SAAS provider) @London, UK & Paris, FR
+      company: Coorganiz/Calizy (B2C app/SAAS provider)
+      location: London, UK & Paris, FR
       details: |
+        Working with a team scattered across Europe on 2 different projects:
+        - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a> (B2C app, iOS/Android/web), an app that helps the organization of small communities
+        - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a> (B2B app, iOS/Android/web), a SAAS product that facilitates appointment booking for companies
+        
         Activities:
         - listen to users/clients wants/needs
         - rephrase those needs, so that the end feature benefits all clients and not a specific one
@@ -89,13 +94,10 @@ experiences:
         - QA (for the mobile apps: rapid remote testing via Xcode & Android Studio)
         - development and maintenance of the product landing pages: <a href="https://coorganiz.com" target="_blank" rel="nofollow">coorganiz.com</a>, <a href="https://calizy.com" target="_blank" rel="nofollow">calizy.com</a>
 
-        I'm working with the team (which is scattered across Europe) on 2 different projects:
-        - Coorganiz (B2C app, iOS/Android/web), an app that helps the organization of small communities
-        - Calizy (B2B app, iOS/Android/web), a SAAS product that facilitates appointment booking for companies
-
     - role: Platform leader
       time: Jul 2017 - Dec 2017
-      company: Study Advisor (EdTech marketplace) @Paris, FR
+      company: Study Advisor (EdTech marketplace)
+      location: Paris, FR
       details: |
         I oversaw the backoffice and analyzed the operational data. The goal was to:
         - find issues leading to basket abandonment and churn
@@ -103,7 +105,8 @@ experiences:
 
     - role: Software developer
       time: Feb 2015 - Aug 2015
-      company: Lucca (HR SAAS provider) @Paris, FR
+      company: Lucca (HR SAAS provider)
+      location: Paris, FR
       details: |
         Creation of a new webapp allowing the employees to improve
         the use of their handset with a dynamic dashboard: see their call history,

@@ -196,6 +196,9 @@ p {
     .company, .university {
         margin-bottom: 10px;
         color: $text-grey;
+        &.location{
+            margin-top: -10px;
+        }
     }
 
     .project-title {
