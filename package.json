@@ -1,0 +1,12 @@
+{
+	"name": "cv",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "bundle exec jekyll serve",
+		"pdf": "node pdf"
+	},
+	"dependencies": {
+		"puppeteer": "^10.0.0"
+	}
+}

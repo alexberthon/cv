@@ -13,6 +13,7 @@ sidebar:
 
     # Sidebar links
     email: alexandreberthon.pro@gmail.com
+    location: Paris, France
     phone: 
     website: 
     linkedin: alexandreberthon
@@ -85,9 +86,9 @@ experiences:
       company: Study Advisor (EdTech marketplace)
       location: Paris, FR
       details: |
-        I oversaw the backoffice and analyzed the operational data. The goal was to:
+        Overseeing the backoffice and analyzing the operational data. Objectives:
         - find issues leading to basket abandonment and churn
-        - find new ways to acquire users and win their loyalty
+        - find new ways to acquire users and ensure their loyalty
 
     - role: Software developer
       time: Feb 2015 - Aug 2015
