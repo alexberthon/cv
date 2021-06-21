@@ -23,6 +23,9 @@
 	}
 	.wrapper {
 		max-width: auto !important;
+		.save-pdf {
+			display: none;
+		}
 	}
 	.main-wrapper {
 		position: absolute;

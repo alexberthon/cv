@@ -1,19 +1,21 @@
 const puppeteer = require('puppeteer');
 
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-
-  await page.goto('http://localhost:4000/');
-
-  await page.waitForFunction('window.status === "ready"').then(() => (page.pdf({
-      path: 'cv.pdf',
-      format: 'a4',
-      printBackground: false
-    })
-  ));
-
-
-
-  await browser.close();
-})();
+puppeteer.launch({ headless: true }).then(browser =>
+    browser
+      .newPage()
+      .then(page =>
+        Promise.resolve()
+        .then(() => page.setViewport({
+          width: 1200,
+          height: 1500,
+        }))
+        .then(() => page.goto("http://localhost:4000", {waitUntil: 'networkidle0'}))
+        .then(() => page.waitForFunction('window.status === "ready"'))
+        .then(() => page.pdf({
+          path: 'cv.pdf',
+          format: 'a4',
+          printBackground: true
+        }))
+      )
+      .then(result => browser.close())
+);

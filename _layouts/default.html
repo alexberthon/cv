@@ -9,9 +9,16 @@
 
 <body>
   <div class="wrapper">
+  	
     {% include sidebar.html %}
 
     <div class="main-wrapper">
+    	<a title="Save as pdf" href="cv.pdf" download="Alexandre Berthon - Resume">
+	    	<span class="fa-stack fa-xs save-pdf">
+		      <i class="fas fa-circle fa-stack-2x"></i>
+		      <i class="fas fa-file-pdf fa-stack-1x fa-inverse"></i>
+		    </span>
+		</a>
         {{ content }}
     </div>
   </div>

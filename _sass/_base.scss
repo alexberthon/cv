@@ -36,8 +36,10 @@ p {
 	@include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
 	.save-pdf {
 		position: absolute;
-		top: 0;
-		right: 0;
+		top: 20px;
+		right: 20px;
+		font-size: 15px;
+		cursor: pointer;
 	}
 }
 
