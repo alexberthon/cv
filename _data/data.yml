@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Alexandre Berthon
-    tagline: Product Manager
+    tagline: Chief Product Officer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -64,7 +64,7 @@ education:
       time: 2012 - 2015
       details:
 experiences:
-    - role: Product Manager & Product Owner
+    - role: Chief Product Officer
       time: May 2018 - Present
       company: Coorganiz/Calizy (B2C app/SAAS provider)
       location: London, UK & Paris, FR
@@ -74,13 +74,13 @@ experiences:
         - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a> (B2B app, iOS/Android/web), a SAAS product that facilitates appointment booking for companies
         
         Activities:
-        - listen to users/clients wants/needs
-        - reframe those needs, so that the end feature benefits all clients and not a specific one
-        - write specifications and design mockups
-        - project management, development follow-up
-        - QA (for the mobile apps: rapid remote testing via Xcode & Android Studio)
-        - development and maintenance of the product landing pages: <a href="https://coorganiz.com" target="_blank" rel="nofollow">coorganiz.com</a>, <a href="https://calizy.com" target="_blank" rel="nofollow">calizy.com</a>
-
+        - discussing: collect and challenge users/clients wants/needs
+        - reframing: find the generic feature(s) hidden behind the specific, complex needs
+        - planning: maintain the product roadmap, prioritize future developments
+        - designing: specifications writing, with UI conception
+        - managing: support the development teams during their coding sprints
+        - QA: test the new features
+        
     - role: Platform leader
       time: Jul 2017 - Dec 2017
       company: Study Advisor (EdTech marketplace)
