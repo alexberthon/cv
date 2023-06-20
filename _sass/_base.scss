@@ -34,12 +34,31 @@ p {
 	margin: 0 auto;
 	position: relative;
 	@include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
-	.save-pdf {
-		position: absolute;
-		top: 20px;
-		right: 20px;
-		font-size: 15px;
-		cursor: pointer;
+	.buttons {
+		display: flex;
+		justify-content: end;
+		font-size: 22px;
+		.button {
+			background: lighten($theme-color, 30%);
+			width: 33px;
+			height: 33px;
+			border-radius: 100%;
+			padding: 6px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-left: 5px;
+			&:hover {
+				background: $theme-color;
+				cursor: pointer;
+			}
+			img {
+				width: 100%;
+			}
+			.fas {
+				font-size: 16px;
+			}
+		}
 	}
 }
 
@@ -164,6 +183,7 @@ p {
 	background: #fff;
 	padding: 60px;
 	padding-left: 340px;
+	padding-top: 30px;
 	.section-title {
 		text-transform: uppercase;
 		font-size: 20px;

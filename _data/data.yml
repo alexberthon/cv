@@ -3,31 +3,33 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alexandre Berthon
-    tagline: Chief Product Officer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Alexandre Berthon
+  tagline: Product Manager turned Rails developer
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: alexandreberthon.pro@gmail.com
-    location: Paris, France
-    phone: 
-    website: 
-    linkedin: alexandreberthon
-    xing:
-    github:
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: alexandreberthon.pro@gmail.com
+  location: Paris, France
+  phone:
+  website:
+  linkedin: alexandreberthon
+  xing:
+  github: alexberthon
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars: alexberthon
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
+  languages:
+    title: Languages
+    idioms:
       - idiom: French
         level: Native
 
@@ -37,89 +39,84 @@ sidebar:
       - idiom: Italian
         level: Proficient
 
-    interests:
+  interests:
+    title: Hobbies
+    items:
       - item: Tennis, Basketball
         link:
 
-      - item: Sci-fi movies 🚀🪐
+      - item: Sci-fi 🚀🪐
         link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Product Manager with a versatile skillset (engineering & business background), based in Paris, France.
-      I thrive in challenging environments, where there is plenty of different stuff to do with different people.
-      I can work remotely or at the office, having experienced both.
-      Always curious about the R&D and thought processes, I thoroughly enjoy building products/features.
+  title: Career Profile
+  summary: |
+    Ruby on Rails developer based in Paris, France.
+    I used to be a Product Manager on B2C and B2B apps, allowing me to bring product vision & strategy in my dev work.
 education:
-    - degree: MSc in Management
-      university: ESSEC Business School
-      time: 2015 - 2018
-      details:
-    - degree: MSc in Engineering
-      university: Arts et Métiers Engineering School
-      time: 2012 - 2015
-      details:
+  - degree: MSc in Management
+    university: ESSEC Business School
+    time: 2015 - 2018
+    details:
+  - degree: MSc in Engineering
+    university: Arts et Métiers Engineering School
+    time: 2012 - 2015
+    details:
 experiences:
-    - role: Chief Product Officer
-      time: May 2018 - February 2023
-      company: Coorganiz/Calizy (B2C app/SAAS provider)
-      location: London, UK & Paris, FR
-      details: |
-        Working with a team scattered across Europe on 2 different projects:
-        - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a> (B2C app, iOS/Android/web), an app that helps the organization of small communities
-        - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a> (B2B app, iOS/Android/web), a SAAS product that facilitates appointment booking for companies
-        
-        Activities:
-        - discussing: collect and challenge users/clients wants/needs
-        - reframing: find the generic feature(s) hidden behind the specific, complex needs
-        - planning: maintain the product roadmap, prioritize future developments
-        - designing: specifications writing, with UI conception
-        - managing: support the development teams during their coding sprints
-        - QA: test the new features
-        
-    - role: Platform leader
-      time: Jul 2017 - Dec 2017
-      company: Study Advisor (EdTech marketplace)
-      location: Paris, FR
-      details: |
-        Overseeing the backoffice and analyzing the operational data. Objectives:
-        - find issues leading to basket abandonment and churn
-        - find new ways to acquire users and ensure their loyalty
+  - role: Fullstack developer bootcamp
+    time: April 2023 - June 2023
+    company: Le Wagon
+    location: Paris, FR
+    details: |
+      9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
+      SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
+      production a clone of AirBnB and a Rails prototype of <a href="https://zenloop.app" target="_blank" rel="nofollow">Zenloop</a>.
 
-    - role: Software developer
-      time: Feb 2015 - Aug 2015
-      company: Lucca (HR SAAS provider)
-      location: Paris, FR
-      details: |
-        Creation of a new webapp allowing the employees to improve
-        the use of their handset with a dynamic dashboard: see their call history,
-        make calls, match an incoming call to an entry in the company directory, etc.
-        Considerable improvement in software engineering.
+  - role: Chief Product Officer
+    time: May 2018 - February 2023
+    company: Coorganiz/Calizy (B2C app/SAAS provider)
+    location: London, UK & Paris, FR
+    details: |
+      Working with a team scattered across Europe on 2 different projects:
+      - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a> (B2C app, iOS/Android/web), an app that helps the organization of small communities
+      - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a> (B2B app, iOS/Android/web), a SAAS product that facilitates appointment booking for companies
+
+      Activities:
+      - discussing: collect and challenge users/clients wants/needs
+      - reframing: find the generic feature(s) hidden behind the specific, complex needs
+      - planning: maintain the product roadmap, prioritize future developments
+      - designing: specifications writing, with UI conception
+      - managing: support the development teams during their coding sprints
+      - QA: test the new features
 
 projects:
 publications:
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
+  toolset:
+    - name: Ruby on Rails
+      level: 80%
 
-    toolset:
-      - name: HTML, CSS
-        level: 90%
+    - name: StimulusJS
+      level: 70%
 
-      - name: React, Next.js
-        level: 70%
+    - name: React, Next.js
+      level: 70%
 
-      - name: R
-        level: 70%
+    - name: HTML, CSS
+      level: 90%
 
-      - name: Python
-        level: 60%
+    - name: R
+      level: 70%
 
-      - name: Sketch, Photoshop
-        level: 95%
+    - name: Python
+      level: 60%
 
-      - name: Premiere Pro
-        level: 90%
+    - name: Sketch, Photoshop
+      level: 95%
+
+    - name: Premiere Pro
+      level: 90%
 
 footer:

@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Alexandre Berthon
+  tagline: Product Manager turned Rails developer
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: alexandreberthon.pro@gmail.com
+  location: Paris, France
+  phone:
+  website:
+  linkedin: alexandreberthon
+  xing:
+  github: alexberthon
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars: alexberthon
+  goodreads: # Number-Username, e.g. 123456-alandoe
+
+  languages:
+    title: Langues
+    idioms:
+      - idiom: Français
+        level: Maternel
+
+      - idiom: Anglais
+        level: Courant
+
+      - idiom: Italien
+        level: Débutant
+
+  interests:
+    title: Hobbies
+    items:
+      - item: Tennis, Basketball
+        link:
+
+      - item: Science-fiction 🚀🪐
+        link:
+
+career-profile:
+  title: Profil
+  summary: |
+    Développeur Ruby on Rails basé à Paris.
+    Mon expérience précedente de Product Manager - sur des apps B2C et B2B - me permet d'apporter de la vision produit dans mon travail de dev.
+education:
+  - degree: Master en management
+    university: ESSEC Business School
+    time: 2015 - 2018
+    details:
+  - degree: Master en ingénierie
+    university: École des Arts et Métiers
+    time: 2012 - 2015
+    details:
+experiences:
+  - role: Fullstack developer bootcamp
+    time: Avril 2023 - Juin 2023
+    company: Le Wagon
+    location: Paris, FR
+    details: |
+      9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
+      SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
+      production a clone of AirBnB and a Rails prototype of <a href="https://zenloop.app" target="_blank" rel="nofollow">Zenloop</a>.
+
+  - role: Chief Product Officer
+    time: Mai 2018 - Février 2023
+    company: Coorganiz/Calizy (app mobile B2C/webapp B2B)
+    location: Londres & Paris
+    details: |
+      Working with a team scattered across Europe on 2 different projects:
+      - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a> (B2C app, iOS/Android/web), an app that helps the organization of small communities
+      - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a> (B2B app, iOS/Android/web), a SAAS product that facilitates appointment booking for companies
+
+      Activities:
+      - discussing: collect and challenge users/clients wants/needs
+      - reframing: find the generic feature(s) hidden behind the specific, complex needs
+      - planning: maintain the product roadmap, prioritize future developments
+      - designing: specifications writing, with UI conception
+      - managing: support the development teams during their coding sprints
+      - QA: test the new features
+
+projects:
+publications:
+
+skills:
+  title: Skills &amp; Proficiency
+  toolset:
+    - name: Ruby on Rails
+      level: 80%
+
+    - name: StimulusJS
+      level: 70%
+
+    - name: React, Next.js
+      level: 70%
+
+    - name: HTML, CSS
+      level: 90%
+
+    - name: R
+      level: 70%
+
+    - name: Python
+      level: 60%
+
+    - name: Sketch, Photoshop
+      level: 95%
+
+    - name: Premiere Pro
+      level: 90%
+
+footer:

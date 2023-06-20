@@ -23,16 +23,15 @@
 	}
 	.wrapper {
 		max-width: auto !important;
-		.save-pdf {
-			display: none;
-		}
 	}
 	.main-wrapper {
 		position: absolute;
 		right: 0;
 		width: 70%;
-		//margin-left: 200px !important;
-		// padding-left: 50px !important;
+
+    .buttons {
+      display: none;
+    }
 		.section {
 			margin-bottom: 15px;
 			.section-title {
