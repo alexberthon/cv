@@ -42,7 +42,7 @@ sidebar:
   interests:
     title: Hobbies
     items:
-      - item: Tennis, Basketball
+      - item: Tennis, Padel, Basketball
         link:
 
       - item: Sci-fi 🚀🪐
@@ -52,7 +52,7 @@ career-profile:
   title: Career Profile
   summary: |
     Ruby on Rails developer based in Paris, France.
-    I used to be a Product Manager on B2C and B2B apps, allowing me to bring product vision & strategy in my dev work.
+    I used to be a Product Manager on B2C and B2B apps (5 years), allowing me to bring product vision & strategy in my dev work.
 education:
   - degree: MSc in Management
     university: ESSEC Business School
@@ -63,6 +63,18 @@ education:
     time: 2012 - 2015
     details:
 experiences:
+  - role: Founder/Developer
+    time: Since June 2023
+    company: TrainStory
+    location: Paris, FR
+    details: |
+      Creator of <a href="https://trainstory.eu" target="_blank" rel="nofollow">TrainStory</a>, a trip planner for rail-based journeys through Europe.
+      Stack:
+      - Ruby on Rails
+      - PostgreSQL
+      - Redis
+      - Hotwire: Turbo/Stimulus
+
   - role: Fullstack developer bootcamp
     time: April 2023 - June 2023
     company: Le Wagon
@@ -98,7 +110,7 @@ skills:
     - name: Ruby on Rails
       level: 80%
 
-    - name: StimulusJS
+    - name: Hotwire (Turbo, Stimulus)
       level: 70%
 
     - name: React, Next.js
@@ -115,8 +127,5 @@ skills:
 
     - name: Sketch, Photoshop
       level: 95%
-
-    - name: Premiere Pro
-      level: 90%
 
 footer:
