@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Alexandre Berthon
-  tagline: Product Manager turned Rails developer
+  tagline: Product Manager & Développeur Ruby on Rails
   avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -52,7 +52,7 @@ career-profile:
   title: Profil
   summary: |
     Développeur Ruby on Rails basé à Paris.
-    Mon expérience précedente de Product Manager sur des apps B2C et B2B (5 ans) me permet d'apporter de la vision produit dans mon travail de dev.
+    Mon expérience de Product Manager sur des apps B2C et B2B (5 ans) me permet d'apporter de la vision produit dans mon travail de dev.
 education:
   - degree: Master en management
     university: ESSEC Business School
@@ -71,44 +71,43 @@ experiences:
       Créateur de <a href="https://trainstory.eu" target="_blank" rel="nofollow">TrainStory</a>, un planificateur de voyages en train en Europe.
       Stack:
       - Ruby on Rails
+      - Hotwire: Turbo/Stimulus
       - PostgreSQL
       - Redis
-       - Hotwire: Turbo/Stimulus
+      - Sidekiq
 
   - role: Fullstack developer bootcamp
     time: Avril 2023 - Juin 2023
     company: Le Wagon
     location: Paris, FR
     details: |
-      9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
-      SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
-      production a clone of AirBnB and a Rails prototype of <a href="https://zenloop.app" target="_blank" rel="nofollow">Zenloop</a>.
+      Bootcamp intensif de programmation de 9 semaines (Ruby on Rails, Hotwire, PostgreSQL).
 
   - role: Chief Product Officer
     time: Mai 2018 - Février 2023
-    company: Coorganiz/Calizy (app mobile B2C/webapp B2B)
-    location: Londres & Paris
+    company: Coorganiz/Calizy (app B2C/SaaS B2B)
+    location: Londres, UK & Paris, FR
     details: |
-      Working with a team scattered across Europe on 2 different projects:
-      - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a> (B2C app, iOS/Android/web), an app that helps the organization of small communities
-      - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a> (B2B app, iOS/Android/web), a SAAS product that facilitates appointment booking for companies
+      J'ai travaillé avec une équipe dispersée en Europe sur 2 projets :
+      - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a> (app B2C, iOS/Android/web), une application facilitant l'organisation de petites communautés
+      - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a> (app B2B, iOS/Android/web), un produit SaaS permettant aux entreprises de faire de la prise de RDV en ligne
 
-      Activities:
-      - discussing: collect and challenge users/clients wants/needs
-      - reframing: find the generic feature(s) hidden behind the specific, complex needs
-      - planning: maintain the product roadmap, prioritize future developments
-      - designing: specifications writing, with UI conception
-      - managing: support the development teams during their coding sprints
-      - QA: test the new features
+      Activités :
+      - discuter : recueillir et interroger les souhaits/besoins des utilisateurs/clients
+      - reformuler : identifier les fonctionnalités coeur, cachées derrière des besoins spécifiques et complexes
+      - planifier : maintenir la feuille de route produit et prioriser les développements futurs
+      - concevoir : rédiger les spécifications techniques et concevoir l'interface utilisateur
+      - gérer : accompagner les équipes de développement pendant leurs sprints de développement
+      - QA : tester les nouvelles fonctionnalités
 
 projects:
 publications:
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Compétences
   toolset:
     - name: Ruby on Rails
-      level: 80%
+      level: 85%
 
     - name: Hotwire (Turbo, Stimulus)
       level: 70%
