@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Alexandre Berthon
-  tagline: Product Manager & Ruby on Rails developer
+  tagline: Product Manager & Developer
   avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -24,7 +24,7 @@ sidebar:
   bitbucket:
   twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars: alexberthon
+  codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
 
   languages:
@@ -42,7 +42,7 @@ sidebar:
   interests:
     title: Hobbies
     items:
-      - item: Tennis, Padel, Basketball
+      - item: Tennis, Padel, Cycling
         link:
 
       - item: Sci-fi 🚀🪐
@@ -51,8 +51,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Ruby on Rails developer based in Paris, France.
-    I used to be a Product Manager on B2C and B2B apps (5 years), allowing me to bring product vision & strategy in my dev work.
+    Product Manager with extensive technical knowledge. I know how to build products end-to-end, from gathering ideas to pushing to production.
 education:
   - degree: MSc in Management
     university: ESSEC Business School
@@ -68,7 +67,7 @@ experiences:
     company: TrainStory
     location: Paris, FR
     details: |
-      Creator of <a href="https://trainstory.eu" target="_blank" rel="nofollow">TrainStory</a>, a trip planner for rail-based journeys through Europe.
+      Creator of <a href="https://trainstory.eu" target="_blank" rel="nofollow">TrainStory ↗️</a>, a trip planner for rail-based journeys through Europe.
       Stack:
       - Ruby on Rails
       - Hotwire: Turbo/Stimulus
@@ -89,8 +88,8 @@ experiences:
     location: London, UK & Paris, FR
     details: |
       Working with a team scattered across Europe on 2 different projects:
-      - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a> (B2C app, iOS/Android/web), an app that helps the organization of small communities
-      - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a> (B2B app, iOS/Android/web), a SaaS product that facilitates appointment booking for companies
+      - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz ↗️</a> (B2C app, iOS/Android/web), an app that helps the organization of small communities
+      - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy ↗️</a> (B2B app, iOS/Android/web), a SaaS product that facilitates appointment booking for companies
 
       Activities:
       - discussing: collect and challenge users/clients wants/needs
@@ -115,16 +114,13 @@ skills:
     - name: React, Next.js
       level: 70%
 
-    - name: HTML, CSS
-      level: 90%
-
     - name: R
       level: 70%
 
     - name: Python
       level: 60%
 
-    - name: Sketch, Photoshop
+    - name: Sketch, Figma
       level: 95%
 
 footer:
