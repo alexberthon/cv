@@ -8,8 +8,8 @@ sidebar:
 
   # Profile information
   name: Alexandre Berthon
-  tagline: Product Manager & Développeur
-  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Fullstack Software Engineer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: alexandreberthon.pro@gmail.com
@@ -42,6 +42,8 @@ sidebar:
   interests:
     title: Hobbies
     items:
+      - item: Nova, mon petit chiot 🐶
+
       - item: Tennis, Padel, Cyclisme
         link:
 
@@ -51,8 +53,12 @@ sidebar:
 career-profile:
   title: Profil
   summary: |
-    Product Manager avec une connaissance approfondie en développement. Je construis des produits de bout en bout, de l'idée à la mise en production.
+    Ex-product manager reconverti dans le développement web. Je construis des produits de bout en bout, de l'idée à la mise en production.
 education:
+  - degree: Fullstack developer bootcamp
+    university: Le Wagon
+    time: Avril 2023 - Juin 2023
+    details:
   - degree: Master en management
     university: ESSEC Business School
     time: 2015 - 2018
@@ -62,25 +68,25 @@ education:
     time: 2012 - 2015
     details:
 experiences:
+  - role: Fullstack Software Engineer
+    time: Depuis Mai 2025
+    company: Faks
+    location: Paris, FR
+    details: |
+      <a href="https://faks.co" target="_blank" rel="noreferrer">Faks ↗️</a> est une plateforme B2B connectant pharmacies et laboratoires pharmaceutiques. Je travaille sur des fonctionnalités alliant backend, web & mobile.
+      Stack: Rails, React, React Native, Postgres, Redis, Sidekiq
+
+      - Paiements intégrés : intégration d'un nouveau prestataire de paiement, an addition du système de paiement existant
+      - Facturation : conception et implémentation d'un nouveau système de génération de factures
+      - Middleware d'idempotence : conception et implémentation d'une gestion de l'idempotence pour tous les appels API faits depuis nos frontends
+
   - role: Fondateur/Développeur
     time: Depuis Juin 2023
     company: TrainStory
     location: Paris, FR
     details: |
       Créateur de <a href="https://trainstory.eu" target="_blank" rel="nofollow">TrainStory ↗️</a>, un planificateur de voyages en train en Europe.
-      Stack:
-      - Ruby on Rails
-      - Hotwire: Turbo/Stimulus
-      - PostgreSQL
-      - Redis
-      - Sidekiq
-
-  - role: Fullstack developer bootcamp
-    time: Avril 2023 - Juin 2023
-    company: Le Wagon
-    location: Paris, FR
-    details: |
-      Bootcamp intensif de programmation de 9 semaines (Ruby on Rails, Hotwire, PostgreSQL).
+      Stack: Rails, Hotwire (Turbo/Stimulus), Postgres, Redis, Sidekiq
 
   - role: Chief Product Officer
     time: Mai 2018 - Février 2023
@@ -91,13 +97,7 @@ experiences:
       - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz ↗️</a> (app B2C, iOS/Android/web), une application facilitant l'organisation de petites communautés
       - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy ↗️</a> (app B2B, iOS/Android/web), un produit SaaS permettant aux entreprises de faire de la prise de RDV en ligne
 
-      Activités :
-      - discuter : recueillir et interroger les souhaits/besoins des utilisateurs/clients
-      - reformuler : identifier les fonctionnalités coeur, cachées derrière des besoins spécifiques et complexes
-      - planifier : maintenir la feuille de route produit et prioriser les développements futurs
-      - concevoir : rédiger les spécifications techniques et concevoir l'interface utilisateur
-      - gérer : accompagner les équipes de développement pendant leurs sprints de développement
-      - QA : tester les nouvelles fonctionnalités
+      Activités: discussion/reformulation des besoins client, planificiation de la roadmap produit, rédaction des specifications, QA
 
 projects:
 publications:
@@ -106,13 +106,13 @@ skills:
   title: Compétences
   toolset:
     - name: Ruby on Rails
-      level: 85%
+      level: 90%
 
     - name: Hotwire (Turbo, Stimulus)
       level: 70%
 
-    - name: React, Next.js
-      level: 70%
+    - name: React, React Native, Next.js
+      level: 80%
 
     - name: R
       level: 70%

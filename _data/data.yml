@@ -8,8 +8,8 @@ sidebar:
 
   # Profile information
   name: Alexandre Berthon
-  tagline: Product Manager & Developer
-  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Fullstack Software Engineer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: alexandreberthon.pro@gmail.com
@@ -42,6 +42,8 @@ sidebar:
   interests:
     title: Hobbies
     items:
+      - item: Nova, my little puppy 🐶
+
       - item: Tennis, Padel, Cycling
         link:
 
@@ -51,8 +53,12 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Product Manager with extensive technical knowledge. I build products end-to-end, from idea to production deployment.
+    Ex-product manager turned web developer. I build products end-to-end, from idea to production deployment.
 education:
+  - degree: Fullstack developer bootcamp
+    university: Le Wagon
+    time: April 2023 - June 2023
+    details:
   - degree: MSc in Management
     university: ESSEC Business School
     time: 2015 - 2018
@@ -62,25 +68,25 @@ education:
     time: 2012 - 2015
     details:
 experiences:
+  - role: Fullstack Software Engineer
+    time: Since May 2025
+    company: Faks
+    location: Paris, FR
+    details: |
+      <a href="https://faks.co" target="_blank" rel="noreferrer">Faks ↗️</a> is a B2B platform connecting pharmacies and pharmaceutical labs. Working on multiple features across backend, web, and mobile.
+      Stack: Rails, React, React Native, Postgres, Redis, Sidekiq
+
+      - Embedded payments: integration of a new payment provider, on top of the existing payment system
+      - Invoicing & billing: design and implementation of a new invoice generation system
+      - Idempotency middleware: design and implementation of API idempotency to eliminate duplicate submissions across web and mobile
+
   - role: Founder/Developer
     time: Since June 2023
     company: TrainStory
     location: Paris, FR
     details: |
       Creator of <a href="https://trainstory.eu" target="_blank" rel="nofollow">TrainStory ↗️</a>, a trip planner for rail-based journeys through Europe.
-      Stack:
-      - Ruby on Rails
-      - Hotwire: Turbo/Stimulus
-      - PostgreSQL
-      - Redis
-      - Sidekiq
-
-  - role: Fullstack developer bootcamp
-    time: April 2023 - June 2023
-    company: Le Wagon
-    location: Paris, FR
-    details: |
-      9-week intensive coding bootcamp (Ruby on Rails, Hotwire, PostgreSQL).
+      Stack: Rails, Hotwire (Turbo/Stimulus), Postgres, Redis, Sidekiq
 
   - role: Chief Product Officer
     time: May 2018 - February 2023
@@ -91,13 +97,7 @@ experiences:
       - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz ↗️</a> (B2C app, iOS/Android/web), an app that helps the organization of small communities
       - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy ↗️</a> (B2B app, iOS/Android/web), a SaaS product that facilitates appointment booking for companies
 
-      Activities:
-      - discussing: collect and challenge users/clients wants/needs
-      - reframing: find the generic feature(s) hidden behind the specific, complex needs
-      - planning: maintain the product roadmap, prioritize future developments
-      - designing: specifications writing, with UI conception
-      - managing: support the development teams during their coding sprints
-      - QA: test the new features
+      Activities: discussing/reframing client needs, planning the product roadmap, writing specifications, QA
 
 projects:
 publications:
@@ -106,13 +106,13 @@ skills:
   title: Skills &amp; Proficiency
   toolset:
     - name: Ruby on Rails
-      level: 85%
+      level: 90%
 
     - name: Hotwire (Turbo, Stimulus)
       level: 70%
 
-    - name: React, Next.js
-      level: 70%
+    - name: React, React Native, Next.js
+      level: 80%
 
     - name: R
       level: 70%
