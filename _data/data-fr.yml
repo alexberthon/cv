@@ -42,18 +42,13 @@ sidebar:
   interests:
     title: Hobbies
     items:
-      - item: Nova, mon petit chiot 🐶
-
+      - item: Nova, mon chien
       - item: Tennis, Padel, Cyclisme
-        link:
-
-      - item: Science-fiction 🚀🪐
-        link:
 
 career-profile:
   title: Profil
   summary: |
-    Ex-product manager reconverti dans le développement web. Je construis des produits de bout en bout, de l'idée à la mise en production.
+    Ex-product manager reconverti au développement fullstack. Je porte les fonctionnalités de A à Z : besoin utilisateur, conception, implémentation, mise en production, itération. L'IA est un accélérateur quotidien.
 education:
   - degree: Fullstack developer bootcamp
     university: Le Wagon
@@ -76,7 +71,7 @@ experiences:
       <a href="https://faks.co" target="_blank" rel="noreferrer">Faks ↗️</a> est une plateforme B2B connectant pharmacies et laboratoires pharmaceutiques. Je travaille sur des fonctionnalités alliant backend, web & mobile.
       Stack: Rails, React, React Native, Postgres, Redis, Sidekiq
 
-      - Paiements intégrés : intégration d'un nouveau prestataire de paiement, an addition du système de paiement existant
+      - Paiements intégrés : intégration d'un nouveau prestataire de paiement, en addition du système de paiement existant
       - Facturation : conception et implémentation d'un nouveau système de génération de factures
       - Middleware d'idempotence : conception et implémentation d'une gestion de l'idempotence pour tous les appels API faits depuis nos frontends
 
@@ -107,9 +102,6 @@ skills:
   toolset:
     - name: Ruby on Rails
       level: 90%
-
-    - name: Hotwire (Turbo, Stimulus)
-      level: 70%
 
     - name: React, React Native, Next.js
       level: 80%

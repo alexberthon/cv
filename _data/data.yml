@@ -42,18 +42,13 @@ sidebar:
   interests:
     title: Hobbies
     items:
-      - item: Nova, my little puppy 🐶
-
+      - item: Nova, my dog
       - item: Tennis, Padel, Cycling
-        link:
-
-      - item: Sci-fi 🚀🪐
-        link:
 
 career-profile:
   title: Career Profile
   summary: |
-    Ex-product manager turned web developer. I build products end-to-end, from idea to production deployment.
+    Ex-product manager turned fullstack software engineer. I own features from A to Z: user need, design, implementation, shipping, iteration. AI is a daily accelerator.
 education:
   - degree: Fullstack developer bootcamp
     university: Le Wagon
@@ -107,9 +102,6 @@ skills:
   toolset:
     - name: Ruby on Rails
       level: 90%
-
-    - name: Hotwire (Turbo, Stimulus)
-      level: 70%
 
     - name: React, React Native, Next.js
       level: 80%
