@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Alexandre Berthon
-  tagline: Fullstack Software Engineer
+  tagline: Fullstack Software Engineer · ex-CPO
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -37,18 +37,12 @@ sidebar:
         level: Courant
 
       - idiom: Italien
-        level: Débutant
-
-  interests:
-    title: Hobbies
-    items:
-      - item: Nova, mon chien
-      - item: Tennis, Padel, Cyclisme
+        level: Intermédiaire
 
 career-profile:
   title: Profil
   summary: |
-    Ex-product manager reconverti au développement fullstack. Je porte les fonctionnalités de A à Z : besoin utilisateur, conception, implémentation, mise en production, itération. L'IA est un accélérateur quotidien.
+    Ex-CPO reconverti au développement fullstack. Je porte les fonctionnalités de bout en bout : échanges utilisateurs, cadrage, développement, mise en production, itération. TypeScript et Rails au quotidien, je travaille actuellement sur la couche qualité d'un pipeline IA de contrôle de factures.
 education:
   - degree: Fullstack developer bootcamp
     university: Le Wagon
@@ -66,53 +60,55 @@ experiences:
   - role: Fullstack Software Engineer
     time: Depuis Mai 2025
     company: Faks
+    url: https://faks.co
     location: Paris, FR
     details: |
-      <a href="https://faks.co" target="_blank" rel="noreferrer">Faks ↗️</a> est une plateforme B2B connectant pharmacies et laboratoires pharmaceutiques. Je travaille sur des fonctionnalités alliant backend, web & mobile.
-      Stack: Rails, React, React Native, Postgres, Redis, Sidekiq
+      Plateforme B2B où les laboratoires pharmaceutiques mènent des opérations commerciales avec les pharmacies. Je livre des fonctionnalités sur le backend, le web et le mobile.
 
-      - Paiements intégrés : intégration d'un nouveau prestataire de paiement, en addition du système de paiement existant
-      - Facturation : conception et implémentation d'un nouveau système de génération de factures
-      - Middleware d'idempotence : conception et implémentation d'une gestion de l'idempotence pour tous les appels API faits depuis nos frontends
+      - **Audit de factures par IA :** les factures fournisseurs sont lues par un LLM, puis rapprochées des commandes réelles de la pharmacie pour détecter la surfacturation. Refonte en profondeur du moteur de rapprochement, et suite de non-régression rejouant les résultats validés par des humains pour détecter les dérives
+      - **Intégrations partenaires :** synchronisation des opérations depuis des portails de labos partenaires sans API publique, via des adaptateurs backend et une extension Chrome en TypeScript
+      - **Paiements :** intégration d'un second prestataire de paiement en parallèle de l'existant. Déploiement auprès de 20 labos ce trimestre
+      - **Facturation automatisée :** génération de factures de bout en bout : PDF, envoi par email, exports, sur web et mobile
+      - **Fiabilité :** clés d'idempotence sur les appels API web et mobile, supprimant les doublons dus aux doubles clics et aux relances. Traçage New Relic, migration vers Rails 8
+      - **Proche des utilisateurs :** support aux pharmacies et réunions d'intégration API avec les labos. Astreintes
 
   - role: Fondateur/Développeur
     time: Depuis Juin 2023
     company: TrainStory
+    url: https://trainstory.eu
     location: Paris, FR
     details: |
-      Créateur de <a href="https://trainstory.eu" target="_blank" rel="nofollow">TrainStory ↗️</a>, un planificateur de voyages en train en Europe.
-      Stack: Rails, Hotwire (Turbo/Stimulus), Postgres, Redis, Sidekiq
+      Planificateur de voyages en train à travers l'Europe.
+
+      - Recherche d'itinéraires : algorithme maison (A*) de trajets ferroviaires multi-étapes
+      - Développé seul : produit, design et code, auto-hébergé sur un serveur Linux bare-metal que je maintiens et supervise
 
   - role: Chief Product Officer
     time: Mai 2018 - Février 2023
-    company: Coorganiz/Calizy (app B2C/SaaS B2B)
+    company: Coorganiz/Calizy
     location: Londres, UK & Paris, FR
     details: |
-      J'ai travaillé avec une équipe dispersée en Europe sur 2 projets :
-      - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz ↗️</a> (app B2C, iOS/Android/web), une application facilitant l'organisation de petites communautés
-      - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy ↗️</a> (app B2B, iOS/Android/web), un produit SaaS permettant aux entreprises de faire de la prise de RDV en ligne
+      Responsable produit de 2 applications iOS/Android/web, avec une équipe de 3 développeurs répartie en Europe : <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a>, une app B2C pour organiser de petites communautés, et <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a>, un SaaS B2B de prise de RDV en ligne.
 
-      Activités: discussion/reformulation des besoins client, planificiation de la roadmap produit, rédaction des specifications, QA
+      - Plusieurs milliers d'utilisateurs finaux et une dizaine de clients B2B
+      - Traduction des besoins clients en roadmap, spécifications et QA
+      - Développement du site vitrine de Calizy (Next.js) et de scripts d'outillage interne
 
 projects:
 publications:
 
 skills:
   title: Compétences
-  toolset:
-    - name: Ruby on Rails
-      level: 90%
-
-    - name: React, React Native, Next.js
-      level: 80%
-
-    - name: R
-      level: 70%
-
-    - name: Python
-      level: 60%
-
-    - name: Sketch, Figma
-      level: 95%
+  groups:
+    - name: Frontend
+      items: TypeScript, React, React Native, Next.js, Hotwire
+    - name: Backend
+      items: Ruby on Rails, PostgreSQL, Redis, Sidekiq
+    - name: IA
+      items: Pipelines LLM (Gemini), Claude Code
+    - name: Ops
+      items: Sentry, New Relic, GitHub Actions
+    - name: Design
+      items: Figma
 
 footer:

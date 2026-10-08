@@ -19,7 +19,7 @@
 	}
 
 	img.avatar {
-		width: 100px;
+		width: 80px;
 	}
 	.wrapper {
 		max-width: auto !important;
@@ -59,34 +59,20 @@
 				}
 			}
 		}
+		.experiences-section .item {
+			margin-bottom: 14px;
+		}
+		.skill-row {
+			margin-bottom: 4px;
+		}
+		.pill {
+			background: lighten($theme-color, 50%) !important;
+			color: darken($theme-color, 10%) !important;
+			-webkit-print-color-adjust: exact;
+		}
 		.educations-section {
 			.item {
 				margin-bottom: 0px;
-			}
-		}
-		.skills-section {
-			.skillset .item {
-				margin-bottom: 10px;
-			}
-			.skillset .level-title {
-				display: inline-block;
-				float: left;
-				width: 30%;
-				margin-bottom: 0;
-				font-size: 10pt;
-				color: #545e6c !important;
-			}
-			.skillset .level-bar {
-				display: inline-block;
-				width: 70%;
-				float: left;
-				position: relative;
-				top: 1px;
-				.level-bar-inner {
-					background-color: $theme-color !important;
-					-webkit-print-color-adjust: exact;
-					height: 10px;
-				}
 			}
 		}
 	}
@@ -113,6 +99,10 @@
 		.contact-container {
 			li {
 				color: #fff !important;
+				font-size: 9pt;
+			}
+			.fas, .fab {
+				font-size: 14px;
 			}
 		}
 		.education-container {
@@ -136,15 +126,26 @@
 				font-size: 10pt;
 			}
 		}
-		.interests-container {
-			li {
-				color: #fff !important;
-				font-size: 10pt;
-			}
+		.container-block {
+			padding: 12px 16px;
 		}
 		.container-block-title {
 			color: #fff !important;
 			font-weight: 600;
+			margin-bottom: 10px;
+		}
+		.contact-list li,
+		.education-container .item {
+			margin-bottom: 8px;
+		}
+		.interests-list li {
+			margin-bottom: 4px;
+		}
+		.profile-container {
+			padding: 20px 30px;
+			.name {
+				font-size: 26px;
+			}
 		}
 	}
 

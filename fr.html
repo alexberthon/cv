@@ -6,6 +6,8 @@ layout: default-fr
 
 {% include career-profile.html data=localized-data.career-profile %}
 
+{% include skills.html data=localized-data.skills %}
+
 {% unless localized-data.sidebar.education %}
   {% include education.html data=localized-data.sidebar.education %}
 {% endunless %}
@@ -13,5 +15,3 @@ layout: default-fr
 {% include experiences.html data=localized-data.experiences %}
 
 {% include projects.html data=localized-data.projects %}
-
-{% include skills.html data=localized-data.skills %}

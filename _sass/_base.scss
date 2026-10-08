@@ -40,6 +40,7 @@ p {
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
+  display: flex;
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 
   .buttons {
@@ -76,11 +77,7 @@ p {
 
 .sidebar-wrapper {
   background: $theme-color;
-  position: absolute;
-  left: 0;
-  width: 280px;
-  height: 100%;
-  min-height: 800px;
+  flex: 0 0 280px;
   color: #fff;
 
   a {
@@ -142,7 +139,7 @@ p {
   }
 
   .container-block {
-    padding: 20px 30px;
+    padding: 20px;
   }
 
   .container-block-title {
@@ -215,8 +212,8 @@ p {
 
 .main-wrapper {
   background: #fff;
+  flex: 1;
   padding: 60px;
-  padding-left: 340px;
   padding-top: 30px;
 
   a {
@@ -235,7 +232,7 @@ p {
   }
 
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .experiences-section,
@@ -272,10 +269,28 @@ p {
   .university {
     margin-bottom: 10px;
     color: $text-grey;
+  }
 
-    &.location {
-      margin-top: -10px;
-    }
+  .skill-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  .skill-group {
+    width: 80px;
+    color: $text-grey;
+    font-size: 13px;
+  }
+
+  .pill {
+    padding: 1px 10px;
+    border-radius: 999px;
+    background: lighten($theme-color, 50%);
+    color: darken($theme-color, 10%);
+    font-size: 13px;
   }
 
   .project-title {
@@ -321,28 +336,6 @@ p {
 }
 
 
-.skillset {
-  .item {
-    margin-bottom: 15px;
-    overflow: hidden;
-  }
-
-  .level-title {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 12px;
-  }
-
-  .level-bar {
-    height: 12px;
-    background: $smoky-white;
-  }
-
-  .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
-  }
-}
 
 
 
