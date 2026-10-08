@@ -1,6 +1,6 @@
 {% assign skills = include.data %}
 {% if skills %}
-<section class="skills-section section">
+<section class="section skills-section">
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -10,22 +10,13 @@
     {{ skills.title }}
   </h2>
 
-  <div class="skillset">
-
-    {% for skill in skills.toolset %}
-    <div class="item">
-
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
-    {% endfor %}
-
+  {% for group in skills.groups %}
+  <div class="skill-row">
+    <span class="skill-group">{{ group.name }}</span>
+    {% assign items = group.items | split: ", " %}
+    {% for item in items %}<span class="pill">{{ item }}</span>{% endfor %}
   </div>
+  {% endfor %}
 
 </section><!--//skills-section-->
 {% endif %}

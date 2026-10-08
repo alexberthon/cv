@@ -51,7 +51,7 @@
     
 
     
-    <h3 class="tagline">Fullstack Software Engineer</h3>
+    <h3 class="tagline">Fullstack Software Engineer · ex-CPO</h3>
     
 
   </div><!--//profile-container-->
@@ -165,35 +165,8 @@
     
     <li>
       Italien
-      <span class="lang-desc">(Débutant)</span>
+      <span class="lang-desc">(Intermédiaire)</span>
     </li>
-    
-  </ul>
-
-</div><!--//interests-->
-
-
-  
-
-<div class="interests-container container-block">
-
-  <h2 class="container-block-title">
-    Hobbies
-  </h2>
-
-  <ul class="list-unstyled interests-list">
-    
-
-      
-      <li>Nova, mon chien</li>
-      
-
-    
-
-      
-      <li>Tennis, Padel, Cyclisme</li>
-      
-
     
   </ul>
 
@@ -230,11 +203,59 @@
   </h2>
 
   <div class="summary">
-    <p>Ex-product manager reconverti au développement fullstack. Je porte les fonctionnalités de A à Z : besoin utilisateur, conception, implémentation, mise en production, itération. L’IA est un accélérateur quotidien.</p>
+    <p>Ex-CPO reconverti au développement fullstack. Je porte les fonctionnalités de bout en bout : échanges utilisateurs, cadrage, développement, mise en production, itération. TypeScript et Rails au quotidien, je travaille actuellement sur la couche qualité d’un pipeline IA de contrôle de factures.</p>
 
   </div><!--//summary-->
     
 </section><!--//section-->
+
+
+
+
+
+<section class="section skills-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    Compétences
+  </h2>
+
+  
+  <div class="skill-row">
+    <span class="skill-group">Frontend</span>
+    
+    <span class="pill">TypeScript</span><span class="pill">React</span><span class="pill">React Native</span><span class="pill">Next.js</span><span class="pill">Hotwire</span>
+  </div>
+  
+  <div class="skill-row">
+    <span class="skill-group">Backend</span>
+    
+    <span class="pill">Ruby on Rails</span><span class="pill">PostgreSQL</span><span class="pill">Redis</span><span class="pill">Sidekiq</span>
+  </div>
+  
+  <div class="skill-row">
+    <span class="skill-group">IA</span>
+    
+    <span class="pill">Pipelines LLM (Gemini)</span><span class="pill">Claude Code</span>
+  </div>
+  
+  <div class="skill-row">
+    <span class="skill-group">Ops</span>
+    
+    <span class="pill">Linux</span><span class="pill">Sentry</span><span class="pill">New Relic</span><span class="pill">GitHub Actions</span>
+  </div>
+  
+  <div class="skill-row">
+    <span class="skill-group">Design</span>
+    
+    <span class="pill">Figma</span>
+  </div>
+  
+
+</section><!--//skills-section-->
 
 
 
@@ -261,20 +282,24 @@
         <div class="time">Depuis Mai 2025</div>
       </div><!--//upper-row-->
 
-      <div class="company">Faks</div>
-      <div class="company location">Paris, FR</div>
+      <div class="company">
+        <a href="https://faks.co" target="_blank" rel="noreferrer">Faks</a>
+        · Paris, FR
+      </div>
 
     </div><!--//meta-->
 
     
     <div class="details">
-      <p><a href="https://faks.co" target="_blank" rel="noreferrer">Faks ↗️</a> est une plateforme B2B connectant pharmacies et laboratoires pharmaceutiques. Je travaille sur des fonctionnalités alliant backend, web &amp; mobile.
-Stack: Rails, React, React Native, Postgres, Redis, Sidekiq</p>
+      <p>Plateforme B2B où les laboratoires pharmaceutiques mènent des opérations commerciales avec les pharmacies. Je livre des fonctionnalités sur le backend, le web et le mobile.</p>
 
 <ul>
-  <li>Paiements intégrés : intégration d’un nouveau prestataire de paiement, en addition du système de paiement existant</li>
-  <li>Facturation : conception et implémentation d’un nouveau système de génération de factures</li>
-  <li>Middleware d’idempotence : conception et implémentation d’une gestion de l’idempotence pour tous les appels API faits depuis nos frontends</li>
+  <li><strong>Audit de factures par IA :</strong> les factures fournisseurs sont lues par un LLM, puis rapprochées des commandes réelles de la pharmacie pour détecter la surfacturation. Refonte en profondeur du moteur de rapprochement, et suite de non-régression rejouant les résultats validés par des humains pour détecter les dérives</li>
+  <li><strong>Intégrations partenaires :</strong> synchronisation des opérations depuis des portails de labos partenaires sans API publique, via des adaptateurs backend et une extension Chrome en TypeScript</li>
+  <li><strong>Paiements :</strong> intégration d’un second prestataire de paiement en parallèle de l’existant. Déploiement auprès de 20 labos ce trimestre</li>
+  <li><strong>Facturation automatisée :</strong> génération de factures de bout en bout : PDF, envoi par email, exports, sur web et mobile</li>
+  <li><strong>Fiabilité :</strong> clés d’idempotence sur les appels API web et mobile, supprimant les doublons dus aux doubles clics et aux relances</li>
+  <li><strong>Proche des utilisateurs :</strong> support aux pharmacies et réunions d’intégration API avec les labos. Astreintes</li>
 </ul>
 
     </div><!--//details-->
@@ -291,15 +316,21 @@ Stack: Rails, React, React Native, Postgres, Redis, Sidekiq</p>
         <div class="time">Depuis Juin 2023</div>
       </div><!--//upper-row-->
 
-      <div class="company">TrainStory</div>
-      <div class="company location">Paris, FR</div>
+      <div class="company">
+        <a href="https://trainstory.eu" target="_blank" rel="noreferrer">TrainStory</a>
+        · Paris, FR
+      </div>
 
     </div><!--//meta-->
 
     
     <div class="details">
-      <p>Créateur de <a href="https://trainstory.eu" target="_blank" rel="nofollow">TrainStory ↗️</a>, un planificateur de voyages en train en Europe.
-Stack: Rails, Hotwire (Turbo/Stimulus), Postgres, Redis, Sidekiq</p>
+      <p>Planificateur de voyages en train à travers l’Europe.</p>
+
+<ul>
+  <li>Recherche d’itinéraires : algorithme maison (A*) de trajets ferroviaires multi-étapes</li>
+  <li>Développé seul : produit, design et code, auto-hébergé sur un serveur Linux bare-metal que je maintiens et supervise</li>
+</ul>
 
     </div><!--//details-->
     
@@ -315,20 +346,22 @@ Stack: Rails, Hotwire (Turbo/Stimulus), Postgres, Redis, Sidekiq</p>
         <div class="time">Mai 2018 - Février 2023</div>
       </div><!--//upper-row-->
 
-      <div class="company">Coorganiz/Calizy (app B2C/SaaS B2B)</div>
-      <div class="company location">Londres, UK & Paris, FR</div>
+      <div class="company">
+        Coorganiz/Calizy
+        · Londres, UK & Paris, FR
+      </div>
 
     </div><!--//meta-->
 
     
     <div class="details">
-      <p>J’ai travaillé avec une équipe dispersée en Europe sur 2 projets :</p>
-<ul>
-  <li><a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz ↗️</a> (app B2C, iOS/Android/web), une application facilitant l’organisation de petites communautés</li>
-  <li><a href="https://calizy.com" target="_blank" rel="nofollow">Calizy ↗️</a> (app B2B, iOS/Android/web), un produit SaaS permettant aux entreprises de faire de la prise de RDV en ligne</li>
-</ul>
+      <p>Responsable produit de 2 applications iOS/Android/web, avec une équipe de 3 développeurs répartie en Europe : <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a>, une app B2C pour organiser de petites communautés, et <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a>, un SaaS B2B de prise de RDV en ligne.</p>
 
-<p>Activités: discussion/reformulation des besoins client, planificiation de la roadmap produit, rédaction des specifications, QA</p>
+<ul>
+  <li>Plusieurs milliers d’utilisateurs finaux et une dizaine de clients B2B</li>
+  <li>Traduction des besoins clients en roadmap, spécifications et QA</li>
+  <li>Développement du site vitrine de Calizy (Next.js) et de scripts d’outillage interne</li>
+</ul>
 
     </div><!--//details-->
     
@@ -342,83 +375,6 @@ Stack: Rails, Hotwire (Turbo/Stimulus), Postgres, Redis, Sidekiq</p>
 
 
 
-
-
-
-
-
-<section class="skills-section section">
-
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    Compétences
-  </h2>
-
-  <div class="skillset">
-
-    
-    <div class="item">
-
-      <h3 class="level-title">Ruby on Rails</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="90%">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
-    
-    <div class="item">
-
-      <h3 class="level-title">React, React Native, Next.js</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="80%">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
-    
-    <div class="item">
-
-      <h3 class="level-title">R</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="70%">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
-    
-    <div class="item">
-
-      <h3 class="level-title">Python</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="60%">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
-    
-    <div class="item">
-
-      <h3 class="level-title">Sketch, Figma</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="95%">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
-    
-
-  </div>
-
-</section><!--//skills-section-->
 
 
 

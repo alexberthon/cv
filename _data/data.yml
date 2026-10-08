@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Alexandre Berthon
-  tagline: Fullstack Software Engineer
+  tagline: Fullstack Software Engineer · ex-CPO
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -39,16 +39,10 @@ sidebar:
       - idiom: Italian
         level: Proficient
 
-  interests:
-    title: Hobbies
-    items:
-      - item: Nova, my dog
-      - item: Tennis, Padel, Cycling
-
 career-profile:
   title: Career Profile
   summary: |
-    Ex-product manager turned fullstack software engineer. I own features from A to Z: user need, design, implementation, shipping, iteration. AI is a daily accelerator.
+    Ex-CPO turned fullstack software engineer. I own features end-to-end: talking to users, scoping, building, shipping, iterating. TypeScript and Rails daily, currently building the quality layer of an AI invoice-checking pipeline.
 education:
   - degree: Fullstack developer bootcamp
     university: Le Wagon
@@ -66,53 +60,55 @@ experiences:
   - role: Fullstack Software Engineer
     time: Since May 2025
     company: Faks
+    url: https://faks.co
     location: Paris, FR
     details: |
-      <a href="https://faks.co" target="_blank" rel="noreferrer">Faks ↗️</a> is a B2B platform connecting pharmacies and pharmaceutical labs. Working on multiple features across backend, web, and mobile.
-      Stack: Rails, React, React Native, Postgres, Redis, Sidekiq
+      B2B platform where pharmaceutical labs run commercial deals with pharmacies. Shipping features across backend, web and mobile.
 
-      - Embedded payments: integration of a new payment provider, on top of the existing payment system
-      - Invoicing & billing: design and implementation of a new invoice generation system
-      - Idempotency middleware: design and implementation of API idempotency to eliminate duplicate submissions across web and mobile
+      - **AI invoice auditing:** supplier invoices are parsed by an LLM, then matched against the pharmacy's actual orders to catch overbilling. Heavily refactored the matching engine and built a regression suite replaying human-validated results to catch quality drift
+      - **Partner integrations:** synced deals from lab partner portals that have no public API, using backend adapters and a TypeScript Chrome extension
+      - **Payments:** integrated a second payment provider alongside the existing one. Rolling out to 20 labs this quarter
+      - **Automated invoicing:** built invoice generation end-to-end: PDFs, email delivery, exports, on web and mobile
+      - **Reliability:** API idempotency keys on web and mobile, eliminating duplicate submissions from double-clicks and retries
+      - **Close to users:** pharmacy support and API-integration meetings with labs. On-call rotation
 
   - role: Founder/Developer
     time: Since June 2023
     company: TrainStory
+    url: https://trainstory.eu
     location: Paris, FR
     details: |
-      Creator of <a href="https://trainstory.eu" target="_blank" rel="nofollow">TrainStory ↗️</a>, a trip planner for rail-based journeys through Europe.
-      Stack: Rails, Hotwire (Turbo/Stimulus), Postgres, Redis, Sidekiq
+      Trip planner for rail journeys through Europe.
+
+      - Route search: custom A*-based algorithm finding multi-leg rail journeys
+      - Solo build: product, design and code, self-hosted on a bare-metal Linux server I maintain and monitor
 
   - role: Chief Product Officer
     time: May 2018 - February 2023
-    company: Coorganiz/Calizy (B2C app/B2B SaaS)
+    company: Coorganiz/Calizy
     location: London, UK & Paris, FR
     details: |
-      Working with a team scattered across Europe on 2 different projects:
-      - <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz ↗️</a> (B2C app, iOS/Android/web), an app that helps the organization of small communities
-      - <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy ↗️</a> (B2B app, iOS/Android/web), a SaaS product that facilitates appointment booking for companies
+      Led product for 2 iOS/Android/web apps with a team of 3 developers across Europe: <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a>, a B2C app for organizing small communities, and <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a>, a B2B appointment-booking SaaS.
 
-      Activities: discussing/reframing client needs, planning the product roadmap, writing specifications, QA
+      - Several thousand end users and a dozen B2B clients
+      - Turned client needs into roadmap, specs and QA
+      - Built the Calizy landing page (Next.js) and internal tooling scripts
 
 projects:
 publications:
 
 skills:
-  title: Skills &amp; Proficiency
-  toolset:
-    - name: Ruby on Rails
-      level: 90%
-
-    - name: React, React Native, Next.js
-      level: 80%
-
-    - name: R
-      level: 70%
-
-    - name: Python
-      level: 60%
-
-    - name: Sketch, Figma
-      level: 95%
+  title: Skills
+  groups:
+    - name: Frontend
+      items: TypeScript, React, React Native, Next.js, Hotwire
+    - name: Backend
+      items: Ruby on Rails, PostgreSQL, Redis, Sidekiq
+    - name: AI
+      items: LLM pipelines (Gemini), Claude Code
+    - name: Ops
+      items: Linux, Sentry, New Relic, GitHub Actions
+    - name: Design
+      items: Figma
 
 footer:
