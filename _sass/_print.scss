@@ -28,12 +28,13 @@
 		position: absolute;
 		right: 0;
 		width: 70%;
+		padding-bottom: 0;
 
     .buttons {
       display: none;
     }
 		.section {
-			margin-bottom: 15px;
+			margin-bottom: 30px;
 			.section-title {
 				font-size: 12pt;
 				color: #2e4049 !important;
@@ -60,12 +61,16 @@
 			}
 		}
 		.experiences-section .item {
-			margin-bottom: 14px;
+			margin-bottom: 20px;
 		}
 		.skill-row {
 			margin-bottom: 4px;
 		}
+		.skill-group {
+			font-size: 9pt;
+		}
 		.pill {
+			font-size: 8pt;
 			background: lighten($theme-color, 50%) !important;
 			color: darken($theme-color, 10%) !important;
 			-webkit-print-color-adjust: exact;
@@ -127,7 +132,7 @@
 			}
 		}
 		.container-block {
-			padding: 12px 16px;
+			padding: 24px 16px;
 		}
 		.container-block-title {
 			color: #fff !important;

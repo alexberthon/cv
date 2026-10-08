@@ -69,7 +69,7 @@ experiences:
       - **Intégrations partenaires :** synchronisation des opérations depuis des portails de labos partenaires sans API publique, via des adaptateurs backend et une extension Chrome en TypeScript
       - **Paiements :** intégration d'un second prestataire de paiement en parallèle de l'existant. Déploiement auprès de 20 labos ce trimestre
       - **Facturation automatisée :** génération de factures de bout en bout : PDF, envoi par email, exports, sur web et mobile
-      - **Fiabilité :** clés d'idempotence sur les appels API web et mobile, supprimant les doublons dus aux doubles clics et aux relances. Traçage New Relic, migration vers Rails 8
+      - **Fiabilité :** clés d'idempotence sur les appels API web et mobile, supprimant les doublons dus aux doubles clics et aux relances
       - **Proche des utilisateurs :** support aux pharmacies et réunions d'intégration API avec les labos. Astreintes
 
   - role: Fondateur/Développeur
@@ -107,7 +107,7 @@ skills:
     - name: IA
       items: Pipelines LLM (Gemini), Claude Code
     - name: Ops
-      items: Sentry, New Relic, GitHub Actions
+      items: Linux, Sentry, New Relic, GitHub Actions
     - name: Design
       items: Figma
 

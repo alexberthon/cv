@@ -69,7 +69,7 @@ experiences:
       - **Partner integrations:** synced deals from lab partner portals that have no public API, using backend adapters and a TypeScript Chrome extension
       - **Payments:** integrated a second payment provider alongside the existing one. Rolling out to 20 labs this quarter
       - **Automated invoicing:** built invoice generation end-to-end: PDFs, email delivery, exports, on web and mobile
-      - **Reliability:** API idempotency keys on web and mobile, eliminating duplicate submissions from double-clicks and retries. New Relic tracing, Rails 7.0 → 8.0 upgrades
+      - **Reliability:** API idempotency keys on web and mobile, eliminating duplicate submissions from double-clicks and retries
       - **Close to users:** pharmacy support and API-integration meetings with labs. On-call rotation
 
   - role: Founder/Developer
@@ -107,7 +107,7 @@ skills:
     - name: AI
       items: LLM pipelines (Gemini), Claude Code
     - name: Ops
-      items: Sentry, New Relic, GitHub Actions
+      items: Linux, Sentry, New Relic, GitHub Actions
     - name: Design
       items: Figma
 

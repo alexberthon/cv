@@ -77,7 +77,7 @@ p {
 
 .sidebar-wrapper {
   background: $theme-color;
-  flex: 0 0 280px;
+  flex: 0 0 290px;
   color: #fff;
 
   a {
@@ -124,13 +124,21 @@ p {
 
     .fas,
     .fab {
-      margin-right: 5px;
-      font-size: 18px;
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      line-height: 18px;
+      text-align: center;
+      margin-right: 6px;
+      font-size: 16px;
       vertical-align: middle;
     }
 
     li {
       margin-bottom: 15px;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
 
       &:last-child {
         margin-bottom: 0;
