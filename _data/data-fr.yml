@@ -3,13 +3,10 @@
 #
 
 sidebar:
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Alexandre Berthon
-  tagline: Fullstack Software Engineer · ex-CPO
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: 0 → 1 Fullstack Engineer · ex-CPO
 
   # Sidebar links
   email: alexandreberthon.pro@gmail.com
@@ -32,21 +29,24 @@ sidebar:
     idioms:
       - idiom: Français
         level: Maternel
+        fill: 100
 
       - idiom: Anglais
         level: Courant
+        fill: 75
 
       - idiom: Italien
         level: Intermédiaire
+        fill: 50
 
 career-profile:
   title: Profil
   summary: |
-    Ex-CPO reconverti au développement fullstack. Je porte les fonctionnalités de bout en bout : échanges utilisateurs, cadrage, développement, mise en production, itération. TypeScript et Rails au quotidien, je travaille actuellement sur la couche qualité d'un pipeline IA de contrôle de factures.
+    Je donne le meilleur de moi-même là où tout reste à construire. Ex-CPO devenu développeur fullstack, je mène les fonctionnalités de la première conversation à la mise en production, puis j'itère. TypeScript et Rails au quotidien, je construis actuellement la couche qualité d'un pipeline IA de contrôle de factures.
 education:
   - degree: Fullstack developer bootcamp
     university: Le Wagon
-    time: Avril 2023 - Juin 2023
+    time: Avril 2023 - juin 2023
     details:
   - degree: Master en management
     university: ESSEC Business School
@@ -58,7 +58,7 @@ education:
     details:
 experiences:
   - role: Fullstack Software Engineer
-    time: Depuis Mai 2025
+    time: Depuis mai 2025
     company: Faks
     url: https://faks.co
     location: Paris, FR
@@ -73,7 +73,7 @@ experiences:
       - **Proche des utilisateurs :** support aux pharmacies et réunions d'intégration API avec les labos. Astreintes
 
   - role: Fondateur/Développeur
-    time: Depuis Juin 2023
+    time: Depuis juin 2023
     company: TrainStory
     url: https://trainstory.eu
     location: Paris, FR
@@ -84,11 +84,12 @@ experiences:
       - Développé seul : produit, design et code, auto-hébergé sur un serveur Linux bare-metal que je maintiens et supervise
 
   - role: Chief Product Officer
-    time: Mai 2018 - Février 2023
-    company: Coorganiz/Calizy
+    time: mai 2018 - février 2023
+    company: Calizy
+    url: https://calizy.com
     location: Londres, UK & Paris, FR
     details: |
-      Responsable produit de 2 applications iOS/Android/web, avec une équipe de 3 développeurs répartie en Europe : <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a>, une app B2C pour organiser de petites communautés, et <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a>, un SaaS B2B de prise de RDV en ligne.
+      Responsable produit de 2 applications iOS/Android/web, avec une équipe de 3 développeurs répartie en Europe : Coorganiz, une app B2C pour organiser de petites communautés, et Calizy, un SaaS B2B de prise de RDV en ligne.
 
       - Plusieurs milliers d'utilisateurs finaux et une dizaine de clients B2B
       - Traduction des besoins clients en roadmap, spécifications et QA
@@ -105,7 +106,7 @@ skills:
     - name: Backend
       items: Ruby on Rails, PostgreSQL, Redis, Sidekiq
     - name: IA
-      items: Pipelines LLM (Gemini), Claude Code
+      items: Pipelines LLM (Gemini), Claude Code, Conductor
     - name: Ops
       items: Linux, Sentry, New Relic, GitHub Actions
     - name: Design

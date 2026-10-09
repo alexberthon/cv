@@ -1,48 +1,27 @@
-/* Extra small devices (phones, less than 768px) */
+/* Tablets */
+@media (max-width: 991px) {
+  body { padding: 0; }
+
+  .masthead { grid-template-columns: 1fr 280px; gap: 32px; }
+  .name { font-size: 56px; }
+}
+
+/* Phones */
 @media (max-width: 767px) {
+  .poster { padding: 28px 20px; }
 
-    body{
-        padding: 0;
-    }
+  .masthead { grid-template-columns: 1fr; }
+  .comp { max-width: 260px; }
+  .name { font-size: 46px; margin-top: 24px; }
+  .tagline { font-size: 17px; }
 
-    .wrapper {
-        display: block;
-    }
+  .strip { flex-direction: column; gap: 6px; margin-top: 28px; }
+  .place { order: -1; }
 
-    .main-wrapper {
-        padding: 30px;
-    }
+  .cols { grid-template-columns: 1fr; gap: 40px; margin-top: 36px; }
+  .summary p { font-size: 17px; }
 
-    .main-wrapper .time {
-        position: static;
-        display: block;
-        margin-top: 5px;
-    }
-
-    .main-wrapper .upper-row {
-        margin-bottom: 0;
-    }
-
-
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
-
-
-/* Ex-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1400px) {
-
+  .job { grid-template-columns: 1fr; gap: 8px; }
+  .yr { font-size: 28px; }
+  .yr small { display: inline; margin-left: 8px; }
 }

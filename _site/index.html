@@ -1,297 +1,114 @@
 
-
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
   <title>Alexandre Berthon - Resume</title>
 
   <!-- Meta -->
   <meta charset="utf-8">
   
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A beautiful
-  Jekyll theme for creating resume">
+  <meta name="description" content="Alexandre Berthon, 0 → 1 fullstack engineer and ex-CPO based in Paris. TypeScript, React, Ruby on Rails.">
 
   <!-- Favicon -->
-  <!-- <link rel="shortcut icon" href="favicon.ico"> -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋🏼</text></svg>">
-
-  <!-- Global CSS -->
-  <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
-
-  <!-- Plugins CSS -->
-  <link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23f0e8da%22/><circle cx=%2230%22 cy=%2230%22 r=%2222%22 fill=%22%23e1311f%22/><rect x=%2256%22 y=%228%22 width=%2236%22 height=%2244%22 fill=%22%2322306b%22/><polygon points=%228,92 50,56 50,92%22 fill=%22%23e9a43b%22/><path d=%22M56 92a36 36 0 0 1 36-36v36z%22 fill=%22%23151515%22/></svg>">
 
   <!-- Theme CSS -->
-  <link id="theme-style" rel="stylesheet" href="/assets/css/main.css">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
+
 <body>
-  <div class="wrapper">
+  <div class="poster">
 
     
-<div class="sidebar-wrapper">
+<header class="masthead">
 
-  <div class="profile-container">
+  <div class="title">
+    <nav class="langs">
+      <a href="/" class="on">EN</a>
+      <a href="/fr">FR</a>
+      <a href="/cv-en.pdf" download="Alexandre Berthon - CV">PDF</a>
+    </nav>
+    <div>
+      <h1 class="name">Alexandre <br>Berthon</h1>
+      <div class="tagline">0 → 1 Fullstack Engineer · ex-CPO</div>
+    </div>
+  </div>
 
+  <svg class="comp" viewBox="0 0 400 400" aria-hidden="true">
+    <path class="line red" d="M20 120H180L280 220H380"/>
+    <path class="line blue" d="M120 20V180L220 280V380"/>
+    <path class="line yellow" d="M30 370L170 230H260L370 120"/>
+    <circle class="stop" cx="20" cy="120" r="10"/>
+    <circle class="stop" cx="380" cy="220" r="10"/>
+    <circle class="stop" cx="120" cy="20" r="10"/>
+    <circle class="stop" cx="220" cy="380" r="10"/>
+    <circle class="stop" cx="30" cy="370" r="10"/>
+    <circle class="stop" cx="370" cy="120" r="10"/>
+    <circle class="stop" cx="120" cy="120" r="16"/>
+    <circle class="stop" cx="170" cy="230" r="16"/>
+    <circle class="stop" cx="275" cy="215" r="16"/>
+  </svg>
+
+</header>
+
+<div class="strip">
+  <div class="contacts">
+    <a href="mailto:alexandreberthon.pro@gmail.com">alexandreberthon.pro@gmail.com</a>
     
-    <img class="avatar" src="/assets/images/profile.png" alt="profile picture" />
     
-
-    
-    <h1 class="name">Alexandre Berthon</h1>
-    
-
-    
-    <h3 class="tagline">Fullstack Software Engineer · ex-CPO</h3>
-    
-
-  </div><!--//profile-container-->
-
-  <div class="contact-container container-block">
-  <ul class="list-unstyled contact-list">
-
-    
-    <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:alexandreberthon.pro@gmail.com">alexandreberthon.pro@gmail.com</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/alexandreberthon" target="_blank">alexandreberthon</a>
-    </li>
-    
-
-    
-
-    
-    <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/alexberthon" target="_blank">alexberthon</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="location"><i class="fas fa-map-marker-alt"></i>
-      Paris, France
-    </li>
-    
-
-  </ul>
-</div><!--//contact-container-->
+    <a href="https://linkedin.com/in/alexandreberthon" target="_blank">in/alexandreberthon</a>
+    <a href="https://github.com/alexberthon" target="_blank">gh/alexberthon</a>
+  </div>
+  <span class="place">Paris, France</span>
+</div>
 
 
-  
-    
-
-  
-  <div class="education-container container-block">
-
-    <h2 class="container-block-title">
-      Education
-    </h2>
-
-    
-    <div class="item">
-      <h4 class="degree">Fullstack developer bootcamp</h4>
-      <h5 class="meta">Le Wagon</h5>
-      <div class="time">April 2023 - June 2023</div>
-    </div><!--//item-->
-    
-    <div class="item">
-      <h4 class="degree">MSc in Management</h4>
-      <h5 class="meta">ESSEC Business School</h5>
-      <div class="time">2015 - 2018</div>
-    </div><!--//item-->
-    
-    <div class="item">
-      <h4 class="degree">MSc in Engineering</h4>
-      <h5 class="meta">Arts et Métiers Engineering School</h5>
-      <div class="time">2012 - 2015</div>
-    </div><!--//item-->
-    
-
-  </div><!--//education-container-->
-  
-
-
-  
-
-  
-
-<div class="languages-container container-block">
-
-  <h2 class="container-block-title">
-    Languages
-  </h2>
-
-  <ul class="list-unstyled interests-list">
-    
-    <li>
-      French
-      <span class="lang-desc">(Native)</span>
-    </li>
-    
-    <li>
-      English
-      <span class="lang-desc">(Fluent)</span>
-    </li>
-    
-    <li>
-      Italian
-      <span class="lang-desc">(Proficient)</span>
-    </li>
-    
-  </ul>
-
-</div><!--//interests-->
-
-
-
-  
-
-</div><!--//sidebar-wrapper-->
-
-
-    <div class="main-wrapper">
-      <div class="buttons">
-        <a class="button" title="Save as pdf" href="cv-en.pdf" download="Alexandre Berthon - Resume">
-          <i class="fas fa-file-pdf fa-inverse"></i>
-        </a>
-        <a class="button" title="Change language" href="/fr">
-          <img src="/assets/images/fr.svg"/>
-        </a>
-      </div>
-      
+    <div class="cols">
+      <main>
+        
 
 
 
 <section class="section summary-section">
-
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-    Career Profile
-  </h2>
-
+  <h2 class="section-title"><span class="sh"></span>Career Profile</h2>
   <div class="summary">
-    <p>Ex-CPO turned fullstack software engineer. I own features end-to-end: talking to users, scoping, building, shipping, iterating. TypeScript and Rails daily, currently building the quality layer of an AI invoice-checking pipeline.</p>
+    <p>I do my best work where nothing exists yet. Ex-CPO turned fullstack engineer, I take features from the first conversation to production, then iterate. TypeScript and Rails daily, currently building the quality layer of an AI invoice-checking pipeline.</p>
 
-  </div><!--//summary-->
-    
-</section><!--//section-->
-
-
-
-
-
-<section class="section skills-section">
-
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    Skills
-  </h2>
-
-  
-  <div class="skill-row">
-    <span class="skill-group">Frontend</span>
-    
-    <span class="pill">TypeScript</span><span class="pill">React</span><span class="pill">React Native</span><span class="pill">Next.js</span><span class="pill">Hotwire</span>
   </div>
-  
-  <div class="skill-row">
-    <span class="skill-group">Backend</span>
-    
-    <span class="pill">Ruby on Rails</span><span class="pill">PostgreSQL</span><span class="pill">Redis</span><span class="pill">Sidekiq</span>
-  </div>
-  
-  <div class="skill-row">
-    <span class="skill-group">AI</span>
-    
-    <span class="pill">LLM pipelines (Gemini)</span><span class="pill">Claude Code</span>
-  </div>
-  
-  <div class="skill-row">
-    <span class="skill-group">Ops</span>
-    
-    <span class="pill">Linux</span><span class="pill">Sentry</span><span class="pill">New Relic</span><span class="pill">GitHub Actions</span>
-  </div>
-  
-  <div class="skill-row">
-    <span class="skill-group">Design</span>
-    
-    <span class="pill">Figma</span>
-  </div>
-  
-
-</section><!--//skills-section-->
-
-
+</section>
 
 
 
 
 
 <section class="section experiences-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>
-    Experiences
-  </h2>
+  <h2 class="section-title"><span class="sh"></span>Experiences</h2>
 
   
-  <div class="item">
+  
+  
+  
+  
+  
+  <div class="job">
 
-    <div class="meta">
+    <div class="yr" aria-hidden="true">
+      2025
+      <small>→ now</small>
+    </div>
 
-      <div class="upper-row">
-        <h3 class="job-title">Fullstack Software Engineer</h3>
-        <div class="time">Since May 2025</div>
-      </div><!--//upper-row-->
-
+    <div>
+      <h3 class="job-title">Fullstack Software Engineer</h3>
       <div class="company">
         <a href="https://faks.co" target="_blank" rel="noreferrer">Faks</a>
         · Paris, FR
+        · Since May 2025
       </div>
-
-    </div><!--//meta-->
-
-    
-    <div class="details">
-      <p>B2B platform where pharmaceutical labs run commercial deals with pharmacies. Shipping features across backend, web and mobile.</p>
+      
+      <div class="details">
+        <p>B2B platform where pharmaceutical labs run commercial deals with pharmacies. Shipping features across backend, web and mobile.</p>
 
 <ul>
   <li><strong>AI invoice auditing:</strong> supplier invoices are parsed by an LLM, then matched against the pharmacy’s actual orders to catch overbilling. Heavily refactored the matching engine and built a regression suite replaying human-validated results to catch quality drift</li>
@@ -302,60 +119,68 @@
   <li><strong>Close to users:</strong> pharmacy support and API-integration meetings with labs. On-call rotation</li>
 </ul>
 
-    </div><!--//details-->
-    
+      </div>
+      
+    </div>
 
-  </div><!--//item-->
+  </div>
   
-  <div class="item">
+  
+  
+  
+  
+  
+  <div class="job">
 
-    <div class="meta">
+    <div class="yr" aria-hidden="true">
+      2023
+      <small>→ now</small>
+    </div>
 
-      <div class="upper-row">
-        <h3 class="job-title">Founder/Developer</h3>
-        <div class="time">Since June 2023</div>
-      </div><!--//upper-row-->
-
+    <div>
+      <h3 class="job-title">Founder/Developer</h3>
       <div class="company">
         <a href="https://trainstory.eu" target="_blank" rel="noreferrer">TrainStory</a>
         · Paris, FR
+        · Since June 2023
       </div>
-
-    </div><!--//meta-->
-
-    
-    <div class="details">
-      <p>Trip planner for rail journeys through Europe.</p>
+      
+      <div class="details">
+        <p>Trip planner for rail journeys through Europe.</p>
 
 <ul>
   <li>Route search: custom A*-based algorithm finding multi-leg rail journeys</li>
   <li>Solo build: product, design and code, self-hosted on a bare-metal Linux server I maintain and monitor</li>
 </ul>
 
-    </div><!--//details-->
-    
-
-  </div><!--//item-->
-  
-  <div class="item">
-
-    <div class="meta">
-
-      <div class="upper-row">
-        <h3 class="job-title">Chief Product Officer</h3>
-        <div class="time">May 2018 - February 2023</div>
-      </div><!--//upper-row-->
-
-      <div class="company">
-        Coorganiz/Calizy
-        · London, UK & Paris, FR
       </div>
+      
+    </div>
 
-    </div><!--//meta-->
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="job">
 
-    
-    <div class="details">
-      <p>Led product for 2 iOS/Android/web apps with a team of 3 developers across Europe: <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a>, a B2C app for organizing small communities, and <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a>, a B2B appointment-booking SaaS.</p>
+    <div class="yr" aria-hidden="true">
+      2018
+      <small>→ 2023</small>
+    </div>
+
+    <div>
+      <h3 class="job-title">Chief Product Officer</h3>
+      <div class="company">
+        <a href="https://calizy.com" target="_blank" rel="noreferrer">Calizy</a>
+        · London, UK & Paris, FR
+        · May 2018 - February 2023
+      </div>
+      
+      <div class="details">
+        <p>Led product for 2 iOS/Android/web apps with a team of 3 developers across Europe: Coorganiz, a B2C app for organizing small communities, and Calizy, a B2B appointment-booking SaaS.</p>
 
 <ul>
   <li>Several thousand end users and a dozen B2B clients</li>
@@ -363,13 +188,14 @@
   <li>Built the Calizy landing page (Next.js) and internal tooling scripts</li>
 </ul>
 
-    </div><!--//details-->
-    
+      </div>
+      
+    </div>
 
-  </div><!--//item-->
+  </div>
   
 
-</section><!--//section-->
+</section>
 
 
 
@@ -377,22 +203,97 @@
 
 
 
+      </main>
+      <aside>
+        
 
+<section class="section skills-section">
+  <h2 class="section-title"><span class="sh"></span>Skills</h2>
+  
+  <div class="grp">
+    <div class="k"><i></i>Frontend</div>
+    <div class="v">TypeScript, React, React Native, Next.js, Hotwire</div>
+  </div>
+  
+  <div class="grp">
+    <div class="k"><i></i>Backend</div>
+    <div class="v">Ruby on Rails, PostgreSQL, Redis, Sidekiq</div>
+  </div>
+  
+  <div class="grp">
+    <div class="k"><i></i>AI</div>
+    <div class="v">LLM pipelines (Gemini), Claude Code, Conductor</div>
+  </div>
+  
+  <div class="grp">
+    <div class="k"><i></i>Ops</div>
+    <div class="v">Linux, Sentry, New Relic, GitHub Actions</div>
+  </div>
+  
+  <div class="grp">
+    <div class="k"><i></i>Design</div>
+    <div class="v">Figma</div>
+  </div>
+  
+</section>
+
+
+        
+        
+
+<section class="section education-section">
+  <h2 class="section-title"><span class="sh"></span>Education</h2>
+  
+  <div class="grp">
+    <div class="d">Fullstack developer bootcamp</div>
+    <div class="m">Le Wagon</div>
+    <div class="m">April 2023 - June 2023</div>
+  </div>
+  
+  <div class="grp">
+    <div class="d">MSc in Management</div>
+    <div class="m">ESSEC Business School</div>
+    <div class="m">2015 - 2018</div>
+  </div>
+  
+  <div class="grp">
+    <div class="d">MSc in Engineering</div>
+    <div class="m">Arts et Métiers Engineering School</div>
+    <div class="m">2012 - 2015</div>
+  </div>
+  
+</section>
+
+
+        
+
+<section class="section languages-section">
+  <h2 class="section-title"><span class="sh"></span>Languages</h2>
+  <ul class="pies">
+    
+    <li><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="8" pathLength="100" stroke-dasharray="100 100" transform="rotate(-90 16 16)"/></svg>French<small>Native</small></li>
+    
+    <li><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="8" pathLength="100" stroke-dasharray="75 100" transform="rotate(-90 16 16)"/></svg>English<small>Fluent</small></li>
+    
+    <li><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="8" pathLength="100" stroke-dasharray="50 100" transform="rotate(-90 16 16)"/></svg>Italian<small>Proficient</small></li>
+    
+  </ul>
+</section>
+
+
+      </aside>
     </div>
+
+    <footer class="footer">
+  <span>Curriculum Vitae</span>
+  <span>2026</span>
+</footer>
+
+
   </div>
 
-  <footer class="footer">
-    <div class="text-center">
-    </div><!--//container-->
-</footer><!--//footer-->
+<script src="/assets/js/main.js"></script>
 
-
-<!-- Javascript -->
-<script type="text/javascript" src="/assets/plugins/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-
-<!-- custom js -->
-<script type="text/javascript" src="/assets/js/main.js"></script>
 
 
 </body>

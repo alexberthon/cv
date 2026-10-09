@@ -3,13 +3,10 @@
 #
 
 sidebar:
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Alexandre Berthon
-  tagline: Fullstack Software Engineer · ex-CPO
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: 0 → 1 Fullstack Engineer · ex-CPO
 
   # Sidebar links
   email: alexandreberthon.pro@gmail.com
@@ -32,17 +29,20 @@ sidebar:
     idioms:
       - idiom: French
         level: Native
+        fill: 100
 
       - idiom: English
         level: Fluent
+        fill: 75
 
       - idiom: Italian
         level: Proficient
+        fill: 50
 
 career-profile:
   title: Career Profile
   summary: |
-    Ex-CPO turned fullstack software engineer. I own features end-to-end: talking to users, scoping, building, shipping, iterating. TypeScript and Rails daily, currently building the quality layer of an AI invoice-checking pipeline.
+    I do my best work where nothing exists yet. Ex-CPO turned fullstack engineer, I take features from the first conversation to production, then iterate. TypeScript and Rails daily, currently building the quality layer of an AI invoice-checking pipeline.
 education:
   - degree: Fullstack developer bootcamp
     university: Le Wagon
@@ -85,10 +85,11 @@ experiences:
 
   - role: Chief Product Officer
     time: May 2018 - February 2023
-    company: Coorganiz/Calizy
+    company: Calizy
+    url: https://calizy.com
     location: London, UK & Paris, FR
     details: |
-      Led product for 2 iOS/Android/web apps with a team of 3 developers across Europe: <a href="https://coorganiz.com" target="_blank" rel="nofollow">Coorganiz</a>, a B2C app for organizing small communities, and <a href="https://calizy.com" target="_blank" rel="nofollow">Calizy</a>, a B2B appointment-booking SaaS.
+      Led product for 2 iOS/Android/web apps with a team of 3 developers across Europe: Coorganiz, a B2C app for organizing small communities, and Calizy, a B2B appointment-booking SaaS.
 
       - Several thousand end users and a dozen B2B clients
       - Turned client needs into roadmap, specs and QA
@@ -105,7 +106,7 @@ skills:
     - name: Backend
       items: Ruby on Rails, PostgreSQL, Redis, Sidekiq
     - name: AI
-      items: LLM pipelines (Gemini), Claude Code
+      items: LLM pipelines (Gemini), Claude Code, Conductor
     - name: Ops
       items: Linux, Sentry, New Relic, GitHub Actions
     - name: Design

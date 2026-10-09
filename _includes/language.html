@@ -1,19 +1,11 @@
 {% assign languages = include.data %}
 {% if languages %}
-<div class="languages-container container-block">
-
-  <h2 class="container-block-title">
-    {{ languages.title }}
-  </h2>
-
-  <ul class="list-unstyled interests-list">
+<section class="section languages-section">
+  <h2 class="section-title"><span class="sh"></span>{{ languages.title }}</h2>
+  <ul class="pies">
     {% for language in languages.idioms %}
-    <li>
-      {{ language.idiom }}
-      <span class="lang-desc">({{ language.level }})</span>
-    </li>
+    <li><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="8" pathLength="100" stroke-dasharray="{{ language.fill | default: 100 }} 100" transform="rotate(-90 16 16)"/></svg>{{ language.idiom }}<small>{{ language.level }}</small></li>
     {% endfor %}
   </ul>
-
-</div><!--//interests-->
+</section>
 {% endif %}

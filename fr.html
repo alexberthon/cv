@@ -1,17 +1,12 @@
 ---
-layout: default-fr
+layout: default
+lang: fr
 ---
 
-{% assign localized-data = site.data.data-fr %}
+{% assign d = site.data.data-fr %}
 
-{% include career-profile.html data=localized-data.career-profile %}
+{% include career-profile.html data=d.career-profile %}
 
-{% include skills.html data=localized-data.skills %}
+{% include experiences.html data=d.experiences now="aujourd'hui" title="Expériences" %}
 
-{% unless localized-data.sidebar.education %}
-  {% include education.html data=localized-data.sidebar.education %}
-{% endunless %}
-
-{% include experiences.html data=localized-data.experiences %}
-
-{% include projects.html data=localized-data.projects %}
+{% include projects.html data=d.projects %}
