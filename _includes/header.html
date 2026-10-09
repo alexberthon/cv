@@ -1,0 +1,42 @@
+{% assign s = include.data %}
+<header class="masthead">
+
+  <div class="title">
+    <nav class="langs">
+      <a href="{{ site.baseurl }}/"{% if page.lang != "fr" %} class="on"{% endif %}>EN</a>
+      <a href="{{ site.baseurl }}/fr"{% if page.lang == "fr" %} class="on"{% endif %}>FR</a>
+      <a href="{{ site.baseurl }}/cv-{{ page.lang }}.pdf" download="{{ s.name }} - CV">PDF</a>
+    </nav>
+    <div>
+      <h1 class="name">{{ s.name | replace: " ", " <br>" }}</h1>
+      <div class="tagline">{{ s.tagline }}</div>
+    </div>
+  </div>
+
+  <svg class="comp" viewBox="0 0 400 400" aria-hidden="true">
+    <path class="line red" d="M20 120H180L280 220H380"/>
+    <path class="line blue" d="M120 20V180L220 280V380"/>
+    <path class="line yellow" d="M30 370L170 230H260L370 120"/>
+    <circle class="stop" cx="20" cy="120" r="10"/>
+    <circle class="stop" cx="380" cy="220" r="10"/>
+    <circle class="stop" cx="120" cy="20" r="10"/>
+    <circle class="stop" cx="220" cy="380" r="10"/>
+    <circle class="stop" cx="30" cy="370" r="10"/>
+    <circle class="stop" cx="370" cy="120" r="10"/>
+    <circle class="stop" cx="120" cy="120" r="16"/>
+    <circle class="stop" cx="170" cy="230" r="16"/>
+    <circle class="stop" cx="275" cy="215" r="16"/>
+  </svg>
+
+</header>
+
+<div class="strip">
+  <div class="contacts">
+    {% if s.email %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% endif %}
+    {% if s.phone %}<a href="tel:{{ s.phone }}">{{ s.phone }}</a>{% endif %}
+    {% if s.website %}<a href="https://{{ s.website }}" target="_blank">{{ s.website }}</a>{% endif %}
+    {% if s.linkedin %}<a href="https://linkedin.com/in/{{ s.linkedin }}" target="_blank">in/{{ s.linkedin }}</a>{% endif %}
+    {% if s.github %}<a href="https://github.com/{{ s.github }}" target="_blank">gh/{{ s.github }}</a>{% endif %}
+  </div>
+  <span class="place">{{ s.location }}</span>
+</div>

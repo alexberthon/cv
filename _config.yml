@@ -4,9 +4,8 @@
 title: Alexandre Berthon - Resume
 url: ''
 baseurl: '' #change it according to your repository name
-description: 
+description: Alexandre Berthon, 0 → 1 fullstack engineer and ex-CPO based in Paris. TypeScript, React, Ruby on Rails.
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker

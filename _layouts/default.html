@@ -1,0 +1,32 @@
+---
+---
+{% if page.lang == "fr" %}{% assign d = site.data.data-fr %}{% else %}{% assign d = site.data.data %}{% endif %}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+{% include head.html %}
+
+<body>
+  <div class="poster">
+
+    {% include header.html data=d.sidebar %}
+
+    <div class="cols">
+      <main>
+        {{ content }}
+      </main>
+      <aside>
+        {% include skills.html data=d.skills %}
+        {% if page.lang == "fr" %}{% assign edu = "Formation" %}{% else %}{% assign edu = "Education" %}{% endif %}
+        {% include education.html data=d.education title=edu %}
+        {% include language.html data=d.sidebar.languages %}
+      </aside>
+    </div>
+
+    {% include footer.html %}
+
+  </div>
+
+{% include scripts.html %}
+</body>
+
+</html>

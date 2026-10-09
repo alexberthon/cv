@@ -1,40 +1,37 @@
 {% assign experiences = include.data %}
 {% if experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>
-    Experiences
-  </h2>
+  <h2 class="section-title"><span class="sh"></span>{{ include.title }}</h2>
 
   {% for experience in experiences %}
-  <div class="item">
+  {% comment %} Pull the 4-digit years out of e.g. "May 2018 - February 2023" {% endcomment %}
+  {% assign years = "" %}
+  {% assign words = experience.time | split: " " %}
+  {% for w in words %}{% assign n = w | plus: 0 %}{% if n > 1900 %}{% assign years = years | append: w | append: " " %}{% endif %}{% endfor %}
+  {% assign years = years | split: " " %}
+  <div class="job">
 
-    <div class="meta">
+    <div class="yr" aria-hidden="true">
+      {{ years.first }}
+      <small>→ {% if years.size > 1 %}{{ years.last }}{% else %}{{ include.now }}{% endif %}</small>
+    </div>
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
+    <div>
+      <h3 class="job-title">{{ experience.role }}</h3>
       <div class="company">
         {% if experience.url %}<a href="{{ experience.url }}" target="_blank" rel="noreferrer">{{ experience.company }}</a>{% else %}{{ experience.company }}{% endif %}
         · {{ experience.location }}
+        · {{ experience.time }}
       </div>
+      {% if experience.details %}
+      <div class="details">
+        {{ experience.details | markdownify }}
+      </div>
+      {% endif %}
+    </div>
 
-    </div><!--//meta-->
-
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
-
-  </div><!--//item-->
+  </div>
   {% endfor %}
 
-</section><!--//section-->
+</section>
 {% endif %}
-
