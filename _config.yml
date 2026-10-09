@@ -17,6 +17,7 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  silence_deprecations: [import] # GitHub Pages' libsass needs @import, not @use
 
 # Build settings
 compress-site: yes
