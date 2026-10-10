@@ -42,7 +42,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I do my best work where nothing exists yet. Ex-CPO turned fullstack engineer, I take features from the first conversation to production, then iterate. TypeScript and Rails daily, currently building the quality layer of an AI invoice-checking pipeline.
+    I do my best work where nothing exists yet. Ex-CPO turned fullstack engineer, I take features from the first conversation to production, then iterate. TypeScript and Rails daily.
 education:
   - degree: Fullstack developer bootcamp
     university: Le Wagon
@@ -66,6 +66,7 @@ experiences:
       B2B platform where pharmaceutical labs run commercial deals with pharmacies. Shipping features across backend, web and mobile.
 
       - **AI invoice auditing:** supplier invoices are parsed by an LLM, then matched against the pharmacy's actual orders to catch overbilling. Heavily refactored the matching engine and built a regression suite replaying human-validated results to catch quality drift
+      - **MCP server:** built Faks' MCP server, opening the platform to AI agents. Designed the tools with an eval harness (headless agent + LLM judge): −40% tool calls and −74% token cost at 100% accuracy on our benchmark
       - **Partner integrations:** synced deals from lab partner portals that have no public API, using backend adapters and a TypeScript Chrome extension
       - **Payments:** integrated a second payment provider alongside the existing one. Rolling out to 20 labs this quarter
       - **Automated invoicing:** built invoice generation end-to-end: PDFs, email delivery, exports, on web and mobile
@@ -106,7 +107,7 @@ skills:
     - name: Backend
       items: Ruby on Rails, PostgreSQL, Redis, Sidekiq
     - name: AI
-      items: LLM pipelines (Gemini), Claude Code, Conductor
+      items: LLM pipelines, MCP, Claude Code, Conductor
     - name: Ops
       items: Linux, Sentry, New Relic, GitHub Actions
     - name: Design
