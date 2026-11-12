@@ -44,17 +44,13 @@ career-profile:
   summary: |
     Je travaille le mieux quand tout est à construire. Ex-CPO devenu développeur fullstack, je mène les fonctionnalités de la première conversation à la mise en production, puis j'itère. TypeScript et Rails au quotidien.
 education:
-  - degree: Fullstack developer bootcamp
-    university: Le Wagon
-    time: Avril 2023 - juin 2023
+  - degree: Master en ingénierie
+    university: École des Arts et Métiers
+    time: 2012 - 2015
     details:
   - degree: Master en management
     university: ESSEC Business School
     time: 2015 - 2018
-    details:
-  - degree: Master en ingénierie
-    university: École des Arts et Métiers
-    time: 2012 - 2015
     details:
 experiences:
   - role: Fullstack Software Engineer
